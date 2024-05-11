@@ -96,7 +96,7 @@ function Core.Player(src)
         elseif Config.Framework == "ox" then
 
         elseif Config.Framework == "LG" then
-            return Core.shared.SvPlayerFunctions.RemovePlayerMoneyCash(account, ammount)
+            return Core.shared.SvPlayerFunctions.RemovePlayerMoneyCash(src, ammount)
         end
     end
 
